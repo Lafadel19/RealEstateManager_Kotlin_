@@ -19,7 +19,7 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="${MAPS_API_KEY}" />
         <activity
-            android:name=".ui.activities.MainActivity"
+            android:name=".ui.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,15 +27,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".ui.activities.SecondActivity"
-            android:exported="false"></activity>
-        <activity
-            android:name=".ui.activities.AddFormActivity"
-            android:exported="false"></activity>
-        <activity
-            android:name=".ui.activities.MapActivity"
-            android:exported="false"></activity>
 
         <provider
             android:name="androidx.core.content.FileProvider"
